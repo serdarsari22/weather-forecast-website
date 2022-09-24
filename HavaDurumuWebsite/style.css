@@ -1,0 +1,95 @@
+body{
+    background-image: url(pexels-burak-karaduman-1549326.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Rubik', sans-serif;
+
+}
+
+.body{
+    background: #C1EFFF;
+    padding: 2em;
+    border-radius: 20px;
+    width: 100%;
+    margin: 1em;
+    max-width: 700px;
+    height: 500px;
+    opacity: 0.8;
+}
+.search{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 120px;
+
+}
+
+input.searchbar{
+    border: none;
+    padding: 0.3em 1em;
+    border-radius: 3px;
+    outline: none;
+    /*background-color: #D6EFED;*/
+    font-family: 'Rubik', sans-serif;
+    height: 40px;
+    width: 60%;
+    font-size: 17px;
+    
+}
+
+button{
+    margin: 0.6em;
+    border-radius: 50%;
+    height: 48px;
+    width: 48px;
+    border: none;
+    outline: none;
+    background-color: #ffffff;
+    transition: ease-in-out;
+
+}
+
+button:hover{
+    background-color: #4c96b5;
+}
+
+.city{
+    text-align: center;
+}
+
+.group{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.right {
+    text-align: center;
+    width: 280px;
+}
+.left {
+    text-align: center;
+    width: 150px;
+}
+
+.status {
+    font-size: 25px;
+    text-transform: capitalize;
+    font-weight: 600;
+}
+
+.wind {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.humidity{
+    font-size: 25px;
+    font-weight: 600;
+}
